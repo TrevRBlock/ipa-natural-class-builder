@@ -1,0 +1,21 @@
+IPA NATURAL CLASS BUILDER V1
+
+Repository:
+ipa-natural-class-builder
+
+Run:
+npm.cmd install
+npm.cmd run dev
+
+Build:
+npm.cmd run build
+
+GitHub Pages base path:
+/ipa-natural-class-builder/
+
+Unary nodes:
+LABIAL
+CORONAL
+DORSAL
+
+All other chart features are binary.

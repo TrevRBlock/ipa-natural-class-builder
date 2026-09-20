@@ -1,0 +1,41 @@
+IPA Natural Class Builder v1 validation
+
+Inventory:
+- Consonants: 25
+- Vowels: 12
+- Total symbols: 37
+
+Feature model:
+- LABIAL: unary
+- CORONAL: unary
+- DORSAL: unary
+- All remaining chart features: binary
+
+Symbol conventions:
+- [ɑ] is present.
+- [ɔ] is not used.
+- Only symbols from the supplied feature chart are included.
+
+Filtering behaviour:
+- Unary selection requires node presence.
+- Binary selection requires the exact + or - value.
+- A sound with no value specified for an active binary feature is excluded.
+- Eliminated symbols can be faded or hidden.
+
+Interface:
+- IPA-style consonant chart: PASS
+- IPA-style vowel chart: PASS
+- Live natural-class count: PASS
+- Live feature-bundle notation: PASS
+- Clear-all control: PASS
+
+TypeScript strict validation:
+- strict: PASS
+- noUnusedLocals: PASS
+- noUnusedParameters: PASS
+
+GitHub Pages workflow:
+- Uses npm install rather than npm ci so a package-lock file is not required.
+
+Full Vite production build:
+- NOT RUN because dependency installation was unavailable in the execution environment.

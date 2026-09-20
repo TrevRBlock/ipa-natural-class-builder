@@ -1,0 +1,9 @@
+IPA Natural Class Builder v1
+
+- New standalone app.
+- Uses only the symbols in the supplied LING 220 Feature Chart.
+- 25 consonants + 12 vowels = 37 symbols.
+- LABIAL, CORONAL, and DORSAL are unary.
+- All other feature-chart features are binary.
+- Feature selection live-filters the IPA inventory to a natural class.
+- Consonants and vowels are displayed in IPA-style charts.
